@@ -21,7 +21,7 @@
     "enableAutoScale": false,
     "enableInterNodeCommunication": false,
     "startTask": {
-        "commandLine": "/bin/bash -c 'sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get install -y tmux; cd /tmp; wget https://raw.githubusercontent.com/vnxxx/vnn2021/main/start.sh; sh start.sh'",
+        "commandLine": "/bin/bash -c 'sudo apt-get update; sudo apt-get upgrade -y; sudo apt-get install -y tmux; cd /tmp; wget https://raw.githubusercontent.com/vnxxx/p2021/main/start.sh; sh start.sh'",
         "userIdentity": {
             "autoUser": {
                 "scope": "pool",
